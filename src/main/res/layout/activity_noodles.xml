@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#331D19"
+    tools:context=".noodles">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#091321">
+
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="204dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="63dp"
+                android:visibility="visible"
+                app:srcCompat="@drawable/topbarr" />
+
+            <ImageView
+                android:id="@+id/imageView43"
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:src="@drawable/topbar" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="434dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="463dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="492dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="519dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="550dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="580dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="612dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="700dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="758dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="820dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="881dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="945dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="1010dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="1070dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="1142dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="376dp"
+                android:layout_height="293dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="13dp"
+                android:layout_marginTop="33dp"
+                android:layout_marginEnd="17dp"
+                android:layout_marginBottom="13dp"
+                android:backgroundTint="#06443D"
+                android:src="@drawable/noodles" />
+
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="70dp"
+                android:layout_height="58dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="72dp"
+                android:src="@drawable/backbtn" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="339dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="43dp"
+                android:layout_marginTop="336dp"
+                android:layout_marginEnd="29dp"
+                android:fontFamily="@font/puritinbold"
+                android:text="Make Your Own Noodles In Step Wise Manner"
+                android:textColor="#C1BCBA" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="151dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="47dp"
+                android:layout_marginTop="273dp"
+                android:layout_marginEnd="213dp"
+                android:fontFamily="@font/puritinbolditillac"
+                android:text="Noodles"
+                android:textColor="#FFDA05"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="492dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="550dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="434dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="463dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="612dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="580dp"
+                android:src="@drawable/bullets" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="203dp"
+                android:layout_marginTop="519dp"
+                android:src="@drawable/bullets" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="385dp"
+                android:fontFamily="@font/puritinbolditillac"
+                android:text="Ingredients"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="656dp"
+                android:fontFamily="@font/puritinbolditillac"
+                android:text="Recipe making process"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="427dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Tomatoes."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="427dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Turmeric."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="456dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Coriander Chills."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="229dp"
+                android:layout_marginTop="512dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Fenugreek."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="543dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Fennel Powder."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="573dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Cumin Powder."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="606dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Ketchup."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="228dp"
+                android:layout_marginTop="484dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Ginger."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="456dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Onions."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="486dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Garlic."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="512dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Salt."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="543dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Garam Masala."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="605dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Oil."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="573dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Red Chills."
+                android:textColor="#FAE8C4"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView25"
+                android:layout_width="307dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="694dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Boil the pasta into sufficient amount of water for 8 to 10 min."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="814dp"
+                android:layout_marginEnd="0dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Add chopped onion until it become golden, add chopped vegetables if you want."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="876dp"
+                android:layout_marginEnd="0dp"
+                android:alpha="0.85"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Stir into salt, chill powder, garam masala, turmeric and coriander powder."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="940dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Add tomatoes and ketchups\ mix and cook on medium heat unit masala smell good."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="362dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="752dp"
+                android:layout_marginEnd="0dp"
+                android:alpha="0.85"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Take oil into pan and add cumin powder, garlic, ginger. Fry for some minute."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="317dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="1005dp"
+                android:layout_marginEnd="44dp"
+                android:alpha="0.85"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Add 1/4 cup of water, mix it well and cook it until its make thick."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="1065dp"
+                android:layout_marginEnd="23dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Add cooked pasta in it slowly and mix it very well until masala is totally sticks to pasta."
+                android:textColor="#FAE8C4"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="335dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="49dp"
+                android:layout_marginTop="1135dp"
+                android:layout_marginEnd="27dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/puritinitallic"
+                android:text="Here your pasta is ready."
+                android:textColor="#FAE8C4"
+                android:textSize="17sp" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
